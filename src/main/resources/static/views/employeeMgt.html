@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<link rel="stylesheet" href="/css/jquery-ui.css"></link>
+<link rel="stylesheet" href="/css/ui.jqgrid.css"></link>
+  
+<script src="/js/jquery.js"></script>
+<script src="/js/jquery-ui.js"></script>
+<script src="/js/grid.locale-en.js"></script>
+<script src="/js/jquery.jqGrid.min.js"></script>
+
+<body>
+	<script>
+	$(document).ready(function(){
+		var defaultParam = {
+				page : 1,
+				rows : 10,
+				sidx : "",
+				sord : "",
+				searchField : "",
+				searchString : ""
+		}
+		
+		selectEmployeeMgt(defaultParam);
+		
+		
+		jQuery.fn.serializeObject = function() {
+		    var obj = null;
+		    try {
+		        if (this[0].tagName && this[0].tagName.toUpperCase() == "FORM") {
+		            var arr = this.serializeArray();
+		            if (arr) {
+		                obj = {};
+		                jQuery.each(arr, function() {
+		                    obj[this.name] = this.value;
+		                });
+		            }//if ( arr ) {
+		        }
+		    } catch (e) {
+		        alert(e.message);
+		    } finally {
+		    }
+		 
+		    return obj;
+		};
+
+
+		
+		
+	});
+	var regions = {"1":"NorthAmerica","2":"SouthAmerica","3":"Asia","4":"Europe","5":"Africa","6":"Oceania","7":"Etc"};
+	
+	//key는 해당 행의 기본키
+	//editable는 기본적으로 false;
+	
+	//https://marobiana.tistory.com/28 참고
+	var colNames = ["사번" , "이름" , "지역"];
+	var colModel = [
+		{name:"empId" , key:true , index:"empId"},
+		{name:"empName" , editable:true , edittype : "text" , editrules : {required : true}},
+		{name:"regionId",editable : true, edittype : 'select' , formatter : 'select' ,
+			editoptions : {value:regions}},
+		];
+	
+	//cellsubmit 
+	//remote 셀의 내용이 변경 되면 즉시 cellurl로 ajax 호출 하여 값을 저장 한다.
+	//clientArray ajax 요청이 없으며 변경된 셀의 내용은 getChangeCells 메소드 또는 이벤트를 통해 없을수 있다.
+	//cellurl : cellsubmit가 remote일때만 사용가능
+	
+	function selectEmployeeMgt(param){
+		$("#employeeGrid").jqGrid({
+			url : '/employee/selectAllEmployeeList',
+			mtype : 'POST',
+			contentType : "application/json;UTF-8",
+			datatype : 'json',
+			postData : param,
+			loadText : 'loding',
+			viewrecords : true,
+			height: "100%",
+			pager : "#pager",
+			rowNum : 10,
+			rownumbers : true,
+			rowList : [10,20,30],
+			sortname : 'empId',
+			sortorder : 'asc',
+			colNames : colNames,
+			colModel : colModel,
+			cellEdit: true,
+			cellsubmit:'remote',
+			cellurl : '/employee/updateEmployee',
+			caption : "사원 정보",
+			repeatitems: false ,
+			ajaxCellOptions : {
+				contentType : "application/json;UTF-8"
+			},
+			serializeCellData : function(postdata){
+				var param = {
+						empId : Number(postdata.id),
+						empName : postdata.empName
+				}
+				return JSON.stringify(param)
+			},
+			
+			loadComplete : function(data,status , xhr){
+				console.log("사원 정보 조회 완료");
+			},
+			beforeSelectRow : function(rowid , e){
+				console.log("Row 선택전");
+			},
+			onSelectRow : function(rowid , iRow , e){
+				console.log("onSelectRow");
+			},
+			onCellSelect : function(rowid, iRow,iCol,e){
+				console.log("cellSelect" , rowid , iRow , iCol , e);
+			},
+			beforeSubmitCell : function(rowid, cellname, value){
+				//submit 전
+				//jqgrid에서는 키값이 기본 key로 등록이 된다.
+				console.log("beforeSubmitCell" , rowid , cellname , value);
+				
+				selectedRowId = $('#employeeGrid').jqGrid ('getGridParam', 'selrow');
+                cellValue = $('#employeeGrid').jqGrid('getCell', selectedRowId, cellname);
+                
+				return JSON.stringify({"empId" : rowid,"empName":value});
+			},
+			onSubmitCell : function(rowid, cellname, value, iRow, iCol){
+				console.log("Cell submit");
+			},
+			afterSubmitCell : function(res){
+				//변경후
+				console.log("afterSubmitCell");
+				console.log(res);
+				
+			}
+			
+			
+			
+			
+			
+			
+		});
+	}
+	
+	</script>
+	
+	<!--
+		JQGrid에서 셀 편집 관련된 속성을 알아보자
+		cellEdit
+		cellsubmit
+		cellurl
+		ajaxCellOptions
+		
+		http://1004lucifer.blogspot.com/2019/05/jqgrid-cell.html
+		
+	 -->
+	
+	<div style="border:1px solid black;">
+		<table id="employeeGrid"></table>
+		<div id="pager"></div>
+	</div>
+</body>
+</html>

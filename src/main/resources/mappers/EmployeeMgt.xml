@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.study.dao.EmployeeMgtDao">
+
+	<select id="selectAllEmployeeTotal" parameterType="searchVO" resultType="int">
+		select count(*) from (
+			select emp.emp_id as emp_id, emp.emp_name as emp_name,reg.region_id as region_id,reg.region_name as region_name from employees as emp,
+			regions as reg
+			where emp.region_id = reg.region_id
+			<if test="searchString != null and searchString !=''">
+				and ${searchField} like #{searchString}
+			</if>
+		)employee
+	</select>
+	<select id="selectAllEmployeeList" parameterType="SearchVO" resultType="EmployeeVO">
+		select employee.* from (
+			select emp.emp_id as emp_id, 
+				emp.emp_name as emp_name,
+				reg.region_id as region_id,
+				reg.region_name as region_name from employees as emp,
+				regions as reg
+				where emp.region_id = reg.region_id
+		<if test="searchString != null and searchString !=''">
+			and ${searchField} like #{searchString}
+		</if>
+		order by ${sidx}) as employee
+		OFFSET #{offset} limit #{rows}
+	</select>
+	
+	
+	<update id="updateEmployee" parameterType="EmployeeVO">
+		update employees set emp_name = #{empName} where emp_id = #{empId}
+	</update>
+
+</mapper>  

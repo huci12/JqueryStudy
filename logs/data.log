@@ -1,0 +1,612 @@
+2021-02-14 01:10:34 [INFO ] [CountryController.java]selectAllCountry(35) : search SearchVO(page=1, rows=10, offset=null, limit=null, sidx=countryId, sord=desc, searchField=, searchString=)
+2021-02-14 01:22:54 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 01:22:54 [INFO ] [HikariDataSource.java]close(350) : HikariPool-1 - Shutdown initiated...
+2021-02-14 01:22:54 [INFO ] [HikariDataSource.java]close(352) : HikariPool-1 - Shutdown completed.
+2021-02-14 01:22:54 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 17164 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 01:22:54 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 01:22:54 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 01:22:54 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 01:22:54 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 01:22:54 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 01:22:54 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 235 ms
+2021-02-14 01:22:54 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 01:22:54 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 01:22:54 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 01:22:54 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 01:22:54 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.545 seconds (JVM running for 6592.584)
+2021-02-14 01:22:54 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 01:22:56 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 01:22:59 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 2904 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 01:22:59 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 01:22:59 [INFO ] [DeferredLog.java]logTo(255) : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-14 01:22:59 [INFO ] [DeferredLog.java]logTo(255) : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-14 01:23:00 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 01:23:00 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 01:23:00 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 01:23:00 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 01:23:00 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 864 ms
+2021-02-14 01:23:00 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 01:23:00 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 01:23:00 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 01:23:00 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 01:23:00 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 1.852 seconds (JVM running for 3.202)
+2021-02-14 01:23:02 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 01:23:02 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 01:23:02 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 1 ms
+2021-02-14 01:23:02 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-1 - Starting...
+2021-02-14 01:23:02 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-1 - Start completed.
+2021-02-14 01:23:07 [WARN ] [AbstractHandlerExceptionResolver.java]logException(207) : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2021-02-14 01:27:02 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 01:27:02 [INFO ] [HikariDataSource.java]close(350) : HikariPool-1 - Shutdown initiated...
+2021-02-14 01:27:02 [INFO ] [HikariDataSource.java]close(352) : HikariPool-1 - Shutdown completed.
+2021-02-14 01:27:02 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 2904 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 01:27:02 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 01:27:03 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 01:27:03 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 01:27:03 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 01:27:03 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 01:27:03 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 302 ms
+2021-02-14 01:27:03 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 01:27:03 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 01:27:03 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 01:27:03 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 01:27:03 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.533 seconds (JVM running for 245.613)
+2021-02-14 01:27:03 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 01:27:06 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 01:27:06 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 01:27:06 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 1 ms
+2021-02-14 01:27:06 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-2 - Starting...
+2021-02-14 01:27:06 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-2 - Start completed.
+2021-02-14 02:09:17 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 02:09:17 [INFO ] [HikariDataSource.java]close(350) : HikariPool-2 - Shutdown initiated...
+2021-02-14 02:09:17 [INFO ] [HikariDataSource.java]close(352) : HikariPool-2 - Shutdown completed.
+2021-02-14 02:09:17 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 2904 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 02:09:17 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 02:09:17 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 02:09:17 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 02:09:17 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 02:09:17 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 02:09:17 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 234 ms
+2021-02-14 02:09:17 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 02:09:17 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 02:09:17 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 02:09:17 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 02:09:17 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.45 seconds (JVM running for 2780.217)
+2021-02-14 02:09:17 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 02:09:18 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 02:09:18 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 02:09:18 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 2 ms
+2021-02-14 02:09:18 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-3 - Starting...
+2021-02-14 02:09:18 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-3 - Start completed.
+2021-02-14 02:09:19 [INFO ] [SpringApplicationAdminMXBeanRegistrar.java]shutdown(159) : Application shutdown requested.
+2021-02-14 02:09:19 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 02:09:19 [INFO ] [HikariDataSource.java]close(350) : HikariPool-3 - Shutdown initiated...
+2021-02-14 02:09:19 [INFO ] [HikariDataSource.java]close(352) : HikariPool-3 - Shutdown completed.
+2021-02-14 02:09:24 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 21744 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 02:09:24 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 02:09:24 [INFO ] [DeferredLog.java]logTo(255) : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-14 02:09:24 [INFO ] [DeferredLog.java]logTo(255) : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-14 02:09:25 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 02:09:25 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 02:09:25 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 02:09:25 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 02:09:25 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 891 ms
+2021-02-14 02:09:25 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 02:09:25 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 02:09:25 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 02:09:25 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 02:09:25 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 2.115 seconds (JVM running for 3.239)
+2021-02-14 02:09:26 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 02:09:26 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 02:09:26 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 1 ms
+2021-02-14 02:09:27 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-1 - Starting...
+2021-02-14 02:09:27 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-1 - Start completed.
+2021-02-14 02:09:29 [WARN ] [AbstractHandlerExceptionResolver.java]logException(207) : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'empName': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'empName': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 9]]
+2021-02-14 02:10:03 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 02:10:03 [INFO ] [HikariDataSource.java]close(350) : HikariPool-1 - Shutdown initiated...
+2021-02-14 02:10:03 [INFO ] [HikariDataSource.java]close(352) : HikariPool-1 - Shutdown completed.
+2021-02-14 02:10:03 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 21744 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 02:10:03 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 02:10:03 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 02:10:03 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 02:10:03 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 02:10:03 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 02:10:03 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 220 ms
+2021-02-14 02:10:03 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 02:10:03 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 02:10:03 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 02:10:03 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 02:10:03 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.415 seconds (JVM running for 40.872)
+2021-02-14 02:10:03 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 02:10:03 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 02:10:03 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 02:10:03 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 1 ms
+2021-02-14 02:10:03 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-2 - Starting...
+2021-02-14 02:10:03 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-2 - Start completed.
+2021-02-14 02:10:06 [WARN ] [AbstractHandlerExceptionResolver.java]logException(207) : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'empName': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'empName': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 9]]
+2021-02-14 02:10:14 [INFO ] [SpringApplicationAdminMXBeanRegistrar.java]shutdown(159) : Application shutdown requested.
+2021-02-14 02:10:14 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 02:10:14 [INFO ] [HikariDataSource.java]close(350) : HikariPool-2 - Shutdown initiated...
+2021-02-14 02:10:14 [INFO ] [HikariDataSource.java]close(352) : HikariPool-2 - Shutdown completed.
+2021-02-14 02:10:19 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 22856 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 02:10:19 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 02:10:19 [INFO ] [DeferredLog.java]logTo(255) : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-14 02:10:19 [INFO ] [DeferredLog.java]logTo(255) : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-14 02:10:19 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 02:10:19 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 02:10:19 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 02:10:20 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 02:10:20 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 880 ms
+2021-02-14 02:10:20 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 02:10:20 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 02:10:20 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 02:10:20 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 02:10:20 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 1.868 seconds (JVM running for 2.938)
+2021-02-14 02:10:20 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 02:10:20 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 02:10:20 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 1 ms
+2021-02-14 02:10:21 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-1 - Starting...
+2021-02-14 02:10:21 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-1 - Start completed.
+2021-02-14 02:10:23 [WARN ] [AbstractHandlerExceptionResolver.java]logException(207) : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'empName': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'empName': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 9]]
+2021-02-14 02:10:43 [WARN ] [AbstractHandlerExceptionResolver.java]logException(207) : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'empId': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'empId': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 7]]
+2021-02-14 02:10:48 [INFO ] [SpringApplicationAdminMXBeanRegistrar.java]shutdown(159) : Application shutdown requested.
+2021-02-14 02:10:48 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 02:10:48 [INFO ] [HikariDataSource.java]close(350) : HikariPool-1 - Shutdown initiated...
+2021-02-14 02:10:48 [INFO ] [HikariDataSource.java]close(352) : HikariPool-1 - Shutdown completed.
+2021-02-14 02:10:53 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 11716 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 02:10:53 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 02:10:53 [INFO ] [DeferredLog.java]logTo(255) : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-14 02:10:53 [INFO ] [DeferredLog.java]logTo(255) : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-14 02:10:54 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 02:10:54 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 02:10:54 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 02:10:54 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 02:10:54 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 929 ms
+2021-02-14 02:10:54 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 02:10:54 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 02:10:54 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 02:10:54 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 02:10:54 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 1.829 seconds (JVM running for 3.087)
+2021-02-14 02:10:55 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 02:10:55 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 02:10:55 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 1 ms
+2021-02-14 02:10:55 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-1 - Starting...
+2021-02-14 02:10:55 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-1 - Start completed.
+2021-02-14 02:10:58 [WARN ] [AbstractHandlerExceptionResolver.java]logException(207) : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'empId': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'empId': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 7]]
+2021-02-14 02:11:47 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 02:11:47 [INFO ] [HikariDataSource.java]close(350) : HikariPool-1 - Shutdown initiated...
+2021-02-14 02:11:47 [INFO ] [HikariDataSource.java]close(352) : HikariPool-1 - Shutdown completed.
+2021-02-14 02:11:47 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 11716 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 02:11:47 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 02:11:47 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 02:11:47 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 02:11:47 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 02:11:47 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 02:11:47 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 200 ms
+2021-02-14 02:11:47 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 02:11:47 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 02:11:47 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 02:11:47 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 02:11:47 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.41 seconds (JVM running for 55.705)
+2021-02-14 02:11:47 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 02:12:41 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 02:12:41 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 02:12:41 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 1 ms
+2021-02-14 02:12:42 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-2 - Starting...
+2021-02-14 02:12:42 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-2 - Start completed.
+2021-02-14 02:13:01 [INFO ] [SpringApplicationAdminMXBeanRegistrar.java]shutdown(159) : Application shutdown requested.
+2021-02-14 02:13:01 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 02:13:01 [INFO ] [HikariDataSource.java]close(350) : HikariPool-2 - Shutdown initiated...
+2021-02-14 02:13:01 [INFO ] [HikariDataSource.java]close(352) : HikariPool-2 - Shutdown completed.
+2021-02-14 02:13:06 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 20412 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 02:13:06 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 02:13:06 [INFO ] [DeferredLog.java]logTo(255) : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-14 02:13:06 [INFO ] [DeferredLog.java]logTo(255) : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-14 02:13:07 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 02:13:07 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 02:13:07 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 02:13:07 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 02:13:07 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 1001 ms
+2021-02-14 02:13:07 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 02:13:07 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 02:13:07 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 02:13:07 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 02:13:07 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 1.894 seconds (JVM running for 3.002)
+2021-02-14 02:13:14 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 02:13:14 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 02:13:14 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 1 ms
+2021-02-14 02:13:15 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-1 - Starting...
+2021-02-14 02:13:15 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-1 - Start completed.
+2021-02-14 02:27:55 [INFO ] [SpringApplicationAdminMXBeanRegistrar.java]shutdown(159) : Application shutdown requested.
+2021-02-14 02:27:56 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 02:27:56 [INFO ] [HikariDataSource.java]close(350) : HikariPool-1 - Shutdown initiated...
+2021-02-14 02:27:56 [INFO ] [HikariDataSource.java]close(352) : HikariPool-1 - Shutdown completed.
+2021-02-14 17:50:40 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 16544 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 17:50:40 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 17:50:40 [INFO ] [DeferredLog.java]logTo(255) : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-14 17:50:40 [INFO ] [DeferredLog.java]logTo(255) : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-14 17:50:41 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 17:50:41 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 17:50:41 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 17:50:41 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 17:50:41 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 1117 ms
+2021-02-14 17:50:42 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 17:50:42 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 17:50:42 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 17:50:42 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 17:50:42 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 2.438 seconds (JVM running for 4.238)
+2021-02-14 17:51:33 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 17:51:33 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 17:51:33 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 0 ms
+2021-02-14 17:51:34 [INFO ] [CountryController.java]selectAllCountry(35) : search SearchVO(page=1, rows=10, offset=null, limit=null, sidx=countryId, sord=desc, searchField=, searchString=)
+2021-02-14 17:51:34 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-1 - Starting...
+2021-02-14 17:51:34 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-1 - Start completed.
+2021-02-14 22:30:17 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:30:17 [INFO ] [HikariDataSource.java]close(350) : HikariPool-1 - Shutdown initiated...
+2021-02-14 22:30:17 [INFO ] [HikariDataSource.java]close(352) : HikariPool-1 - Shutdown completed.
+2021-02-14 22:30:17 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 16544 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:30:17 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:30:17 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:30:17 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:30:17 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:30:17 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:30:17 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 238 ms
+2021-02-14 22:30:17 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:30:17 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:30:17 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:30:17 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:30:17 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.459 seconds (JVM running for 16780.535)
+2021-02-14 22:30:17 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:30:22 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 22:30:22 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 22:30:22 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 0 ms
+2021-02-14 22:30:32 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:30:32 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 16544 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:30:32 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:30:32 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:30:32 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:30:32 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:30:32 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:30:32 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 178 ms
+2021-02-14 22:30:32 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:30:33 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:30:33 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:30:33 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:30:33 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.355 seconds (JVM running for 16795.851)
+2021-02-14 22:30:33 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:30:36 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 22:30:36 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 22:30:36 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 0 ms
+2021-02-14 22:30:36 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-2 - Starting...
+2021-02-14 22:30:36 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-2 - Start completed.
+2021-02-14 22:31:03 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:31:03 [INFO ] [HikariDataSource.java]close(350) : HikariPool-2 - Shutdown initiated...
+2021-02-14 22:31:03 [INFO ] [HikariDataSource.java]close(352) : HikariPool-2 - Shutdown completed.
+2021-02-14 22:31:03 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 16544 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:31:03 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:31:03 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:31:03 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:31:03 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:31:03 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:31:03 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 178 ms
+2021-02-14 22:31:03 [WARN ] [AbstractApplicationContext.java]refresh(596) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeMgtController' defined in file [D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes\com\study\web\EmployeeMgtController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.study.web.EmployeeMgtController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token ""/employee/updateEmployee"", invalid MemberValuePairs
+	Syntax error, insert "AssignmentOperator Expression" to complete Expression
+	Syntax error, insert ";" to complete BlockStatements
+	The left-hand side of an assignment must be a variable
+
+2021-02-14 22:31:03 [INFO ] [DirectJDKLog.java]log(173) : Stopping service [Tomcat]
+2021-02-14 22:31:03 [INFO ] [ConditionEvaluationReportLoggingListener.java]logMessage(136) : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-14 22:31:03 [ERROR] [SpringApplication.java]reportFailure(856) : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeMgtController' defined in file [D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes\com\study\web\EmployeeMgtController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.study.web.EmployeeMgtController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token ""/employee/updateEmployee"", invalid MemberValuePairs
+	Syntax error, insert "AssignmentOperator Expression" to complete Expression
+	Syntax error, insert ";" to complete BlockStatements
+	The left-hand side of an assignment must be a variable
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1216)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.study.JqueryStudyApplication.main(JqueryStudyApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.study.web.EmployeeMgtController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token ""/employee/updateEmployee"", invalid MemberValuePairs
+	Syntax error, insert "AssignmentOperator Expression" to complete Expression
+	Syntax error, insert ";" to complete BlockStatements
+	The left-hand side of an assignment must be a variable
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1310)
+	... 23 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token ""/employee/updateEmployee"", invalid MemberValuePairs
+	Syntax error, insert "AssignmentOperator Expression" to complete Expression
+	Syntax error, insert ";" to complete BlockStatements
+	The left-hand side of an assignment must be a variable
+
+	at com.study.web.EmployeeMgtController.<init>(EmployeeMgtController.java:33)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212)
+	... 25 common frames omitted
+2021-02-14 22:31:09 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 16544 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:31:09 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:31:10 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:31:10 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:31:10 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:31:10 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:31:10 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 186 ms
+2021-02-14 22:31:10 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:31:10 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:31:10 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:31:10 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:31:10 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.337 seconds (JVM running for 16833.03)
+2021-02-14 22:31:10 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:31:12 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 22:31:12 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 22:31:12 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 0 ms
+2021-02-14 22:31:12 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-3 - Starting...
+2021-02-14 22:31:12 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-3 - Start completed.
+2021-02-14 22:31:32 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:31:32 [INFO ] [HikariDataSource.java]close(350) : HikariPool-3 - Shutdown initiated...
+2021-02-14 22:31:32 [INFO ] [HikariDataSource.java]close(352) : HikariPool-3 - Shutdown completed.
+2021-02-14 22:31:32 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 16544 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:31:32 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:31:32 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:31:32 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:31:32 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:31:32 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:31:32 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 157 ms
+2021-02-14 22:31:32 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:31:32 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:31:32 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:31:32 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:31:32 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.354 seconds (JVM running for 16855.456)
+2021-02-14 22:31:32 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:31:32 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 22:31:32 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 22:31:32 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 0 ms
+2021-02-14 22:31:33 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-4 - Starting...
+2021-02-14 22:31:33 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-4 - Start completed.
+2021-02-14 22:31:54 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:31:54 [INFO ] [HikariDataSource.java]close(350) : HikariPool-4 - Shutdown initiated...
+2021-02-14 22:31:54 [INFO ] [HikariDataSource.java]close(352) : HikariPool-4 - Shutdown completed.
+2021-02-14 22:31:54 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 16544 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:31:54 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:31:54 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:31:54 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:31:54 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:31:55 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:31:55 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 210 ms
+2021-02-14 22:31:55 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:31:55 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:31:55 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:31:55 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:31:55 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.424 seconds (JVM running for 16877.982)
+2021-02-14 22:31:55 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:32:01 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:32:01 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 16544 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:32:01 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:32:01 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:32:01 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:32:01 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:32:01 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:32:01 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 189 ms
+2021-02-14 22:32:01 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:32:01 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:32:01 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:32:01 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:32:01 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.374 seconds (JVM running for 16884.379)
+2021-02-14 22:32:01 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:32:47 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 22:32:47 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 22:32:47 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 1 ms
+2021-02-14 22:32:48 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-5 - Starting...
+2021-02-14 22:32:48 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-5 - Start completed.
+2021-02-14 22:32:50 [INFO ] [EmployeeMgtController.java]updateEmployee(35) : EmployeeVO(empId=5, empName=ee, regionId=null, regionName=null)
+2021-02-14 22:33:20 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:33:20 [INFO ] [HikariDataSource.java]close(350) : HikariPool-5 - Shutdown initiated...
+2021-02-14 22:33:20 [INFO ] [HikariDataSource.java]close(352) : HikariPool-5 - Shutdown completed.
+2021-02-14 22:33:20 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 16544 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:33:20 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:33:20 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:33:20 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:33:20 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:33:20 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:33:20 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 168 ms
+2021-02-14 22:33:20 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:33:20 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:33:20 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:33:20 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:33:20 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.327 seconds (JVM running for 16963.419)
+2021-02-14 22:33:20 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:35:08 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:35:08 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 16544 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:35:08 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:35:08 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:35:08 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:35:08 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:35:08 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:35:08 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 177 ms
+2021-02-14 22:35:08 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:35:08 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:35:08 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:35:08 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:35:08 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.336 seconds (JVM running for 17071.6)
+2021-02-14 22:35:08 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:35:10 [INFO ] [SpringApplicationAdminMXBeanRegistrar.java]shutdown(159) : Application shutdown requested.
+2021-02-14 22:35:11 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:35:15 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 13420 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:35:15 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:35:16 [INFO ] [DeferredLog.java]logTo(255) : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-14 22:35:16 [INFO ] [DeferredLog.java]logTo(255) : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-14 22:35:17 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:35:17 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:35:17 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:35:17 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:35:17 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 1081 ms
+2021-02-14 22:35:17 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:35:17 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:35:17 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:35:17 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:35:17 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 2.199 seconds (JVM running for 3.48)
+2021-02-14 22:35:17 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 22:35:17 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 22:35:17 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 1 ms
+2021-02-14 22:35:18 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-1 - Starting...
+2021-02-14 22:35:18 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-1 - Start completed.
+2021-02-14 22:35:21 [INFO ] [EmployeeMgtController.java]updateEmployee(35) : EmployeeVO(empId=4, empName=Roberteeee, regionId=null, regionName=null)
+2021-02-14 22:35:31 [INFO ] [EmployeeMgtController.java]updateEmployee(35) : EmployeeVO(empId=6, empName=Williamee, regionId=null, regionName=null)
+2021-02-14 22:36:14 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:36:14 [INFO ] [HikariDataSource.java]close(350) : HikariPool-1 - Shutdown initiated...
+2021-02-14 22:36:14 [INFO ] [HikariDataSource.java]close(352) : HikariPool-1 - Shutdown completed.
+2021-02-14 22:36:14 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 13420 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:36:14 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:36:15 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:36:15 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:36:15 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:36:15 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:36:15 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 234 ms
+2021-02-14 22:36:15 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:36:15 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:36:15 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:36:15 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:36:15 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.444 seconds (JVM running for 61.114)
+2021-02-14 22:36:15 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:36:27 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:36:27 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 13420 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:36:27 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:36:27 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:36:27 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:36:27 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:36:27 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:36:27 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 321 ms
+2021-02-14 22:36:28 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:36:28 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:36:28 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:36:28 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:36:28 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.562 seconds (JVM running for 73.845)
+2021-02-14 22:36:28 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:36:42 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:36:42 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 13420 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:36:42 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:36:42 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:36:42 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:36:42 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:36:42 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:36:42 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 183 ms
+2021-02-14 22:36:42 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:36:42 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:36:42 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:36:42 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:36:42 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.363 seconds (JVM running for 88.333)
+2021-02-14 22:36:42 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:36:54 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:36:54 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 13420 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:36:54 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:36:54 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:36:54 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:36:54 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:36:54 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:36:54 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 192 ms
+2021-02-14 22:36:54 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:36:54 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:36:54 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:36:54 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:36:54 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.359 seconds (JVM running for 100.629)
+2021-02-14 22:36:54 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:37:06 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:37:06 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 13420 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:37:06 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:37:07 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:37:07 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:37:07 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:37:07 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:37:07 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 187 ms
+2021-02-14 22:37:07 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:37:07 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:37:07 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:37:07 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:37:07 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.337 seconds (JVM running for 112.908)
+2021-02-14 22:37:07 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:37:37 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:37:37 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 13420 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:37:37 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:37:37 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:37:37 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:37:37 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:37:37 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:37:37 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 153 ms
+2021-02-14 22:37:37 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:37:37 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:37:37 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:37:37 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:37:37 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.288 seconds (JVM running for 143.248)
+2021-02-14 22:37:37 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:37:41 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:37:41 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 13420 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:37:41 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:37:41 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:37:41 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:37:41 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:37:41 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:37:41 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 156 ms
+2021-02-14 22:37:41 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:37:41 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:37:41 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:37:41 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:37:41 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.299 seconds (JVM running for 147.496)
+2021-02-14 22:37:41 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:37:44 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-14 22:37:44 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2021-02-14 22:37:44 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 0 ms
+2021-02-14 22:37:44 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-2 - Starting...
+2021-02-14 22:37:44 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-2 - Start completed.
+2021-02-14 22:37:46 [INFO ] [EmployeeMgtController.java]updateEmployee(36) : EmployeeVO(empId=7, empName=Tomasee, regionId=null, regionName=null)
+2021-02-14 22:39:35 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:39:35 [INFO ] [HikariDataSource.java]close(350) : HikariPool-2 - Shutdown initiated...
+2021-02-14 22:39:35 [INFO ] [HikariDataSource.java]close(352) : HikariPool-2 - Shutdown completed.
+2021-02-14 22:39:35 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting JqueryStudyApplication using Java 12.0.2 on DESKTOP-TPL1FHA with PID 13420 (D:\WorkSpace\MyProject\codewar\JqueryStudy\target\classes started by user in D:\WorkSpace\MyProject\codewar\JqueryStudy)
+2021-02-14 22:39:35 [INFO ] [SpringApplication.java]logStartupProfileInfo(660) : No active profile set, falling back to default profiles: default
+2021-02-14 22:39:35 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2021-02-14 22:39:35 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2021-02-14 22:39:35 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-14 22:39:35 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2021-02-14 22:39:35 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(289) : Root WebApplicationContext: initialization completed in 167 ms
+2021-02-14 22:39:35 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 22:39:35 [INFO ] [WelcomePageHandlerMapping.java]<init>(53) : Adding welcome page: class path resource [static/index.html]
+2021-02-14 22:39:35 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2021-02-14 22:39:35 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-14 22:39:35 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started JqueryStudyApplication in 0.312 seconds (JVM running for 261.221)
+2021-02-14 22:39:35 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2021-02-14 22:39:43 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'

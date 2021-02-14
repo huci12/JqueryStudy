@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.study.dao.CountryDao">
+
+	<select id="selectCountryAllCount" parameterType="searchVO" resultType="int">
+		select count(*) from country
+		where
+		1=1
+		<if test="searchString != null and searchString !=''">
+			and ${searchField} like #{searchString}
+		</if>
+	</select>
+	<select id="selectCountryAll" parameterType="SearchVO" resultType="CountryVO">
+		select country.* from (
+		select * from country
+		where 
+		1=1
+		<if test="searchString != null and searchString !=''">
+			and ${searchField} like #{searchString}
+		</if>
+		order by ${sidx}) as country
+		OFFSET #{offset} limit #{rows}
+	</select>
+
+</mapper>  
